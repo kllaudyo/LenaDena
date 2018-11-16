@@ -13,7 +13,7 @@ var
             element.className = element.className.replace((new RegExp("\\b" + className + "\\b", "g")),"");
     },
 
-    styled = function(element, styles){
+    addStyles = function(element, styles){
         for(var keys = Object.keys(styles), indexStyle = keys.length; indexStyle--;)
             if(element.style.hasOwnProperty(keys[indexStyle]))
                 element.style[keys[indexStyle]] = styles[keys[indexStyle]];
