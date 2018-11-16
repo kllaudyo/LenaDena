@@ -2,7 +2,7 @@
 Basic library JavaScript Vanilla
 
 ## Samples
-<code>
+```
   addEvent(window,"load",function(){
     addStyles(
       bySelector("h1"),
@@ -14,4 +14,4 @@ Basic library JavaScript Vanilla
       }
     );
   });
-</code>
+```
