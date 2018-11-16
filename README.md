@@ -1,7 +1,7 @@
 # LenaDena
 Basic library JavaScript Vanilla
 
-##Samples
+## Samples
 <code>
   addEvent(window,"load",function(){
     addStyles(
